@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABEQUIP</title>
+
+    <!-- Шрифти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+<link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="preconnect" crossorigin>
+    <!-- Анімація -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Нормалізатор -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
+    <!-- Стилі -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body class="page-body">
+
+    <!-- Шапка сайту -->
+    <header class="page-header " data-header data-aos="fade-down" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
+        <div class="container page-header__container">
+
+            <!-- Логотип -->
+            <a href="./index.html" aria-label="logo">
+                <img src="./img/hero/LOGO08.png" alt="logo" width="150" height="45">
+                
+            </a>
+
+
+            <!-- Навігація по сайту -->
+            <nav class="main-nav page-header__main-nav">
+
+                <!-- Гамбургер -->
+                <button class="main-nav__button" type="button" aria-controls="menu-container" aria-expanded="false"
+                    data-menu-button>
+                    <svg width="34" height="29" aria-label="button">
+                        <use class="icon-cross" href="./img/sprits/sprit.svg#icon-exit"></use>
+                        <use class="icon-menu" href="./img/sprits/sprit.svg#icon-menu"></use>
+                    </svg>
+                </button>
+
+                <!-- Бекдроп -->
+                <div class="main-nav__backdrop" data-menu></div>
+
+                <!-- Випливаюче меню -->
+                <div class="main-nav__wrapper" id="menu-container">
+
+                    <!-- Компоненти меню -->
+                    <ul class="main-nav__list list">
+
+                        <li class="main-nav__item">
+                            <a class="main-nav__link link" href="./about.html" target="_blank">About</a>
+                        </li>
+
+                        <li class="main-nav__item">
+                            <a class="main-nav__link link" href="./vision.html">Vision &Mission</a>
+                        </li>
+
+                        <li class="main-nav__item">
+                            <a class="main-nav__link link" href="./products.html">Products</a>
+                        </li>
+
+                        <li class="main-nav__item">
+                            <a class="main-nav__link link" href="./contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+
+                    <!-- Замовити стрижку -->
+                    <div class="main-nav__group">
+                        <a class="phone-link link" href="tel:+380441111111" target="_blank" rel="noreferrer noopener"
+                            aria-label="phone">+38 044 111 11 11</a>
+                        <button class="btn btn--page-header btn--anim-pulse" type="button"
+                            data-modal-open>Registration</button>
+                    </div>
+
+
+                </div>
+
+            </nav>
+
+
+        </div>
+    </header>
+
+    <!-- Секція main -->
+    <main>
+
+        <!-- Розділ Герой -->
+        <section class="hero_next">
+            <div class="container hero__container">
+
+                <!-- Соціальні мережі -->
+                <div class="hero__left-side" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000" data-aos-delay="200">
+
+                </div>
+
+                <!-- Оффер -->
+                <div class="hero__group">
+                    <p class="uppertitle uppertitle--dark-mode" lang="en" data-aos="fade-left"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="300">instruments</p>
+
+                    <div class="main-title" lang="en" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000" data-aos-delay="400" >
+                <img src="./img/hero/logo-main.png" alt="logo" width="400">
+                    </div>
+
+                    <p class="subtitle subtitle--dark-mode subtitle--hero-mb" data-aos="fade-right"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="500">
+                        WASHING DISINFECTION CATALOGUE
+Washing disinfection machine in the laboratory, pharma and industry sector
+                    </p>
+                </div>
+
+        
+
+            </div>
+
+        </section>
+
+    
+
+    
+    </main>
+
+    <!-- Розділ footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__uppertitle">&#169; Copyright 2023</p>
+
+        
+        </div>
+    </footer>
+
+    <!-- Backdrop та модальне вікно -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+
+            <!-- Вихід з модального вікна -->
+            <div class="modal__wrapper-btn">
+                <button class="modal__btn-exit" data-modal-close type="button">
+                    <svg class="modal__icon-exit" width="11" height="11">
+                        <use href="./img/sprits/sprit.svg#icon-exit"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <form class="md-form">
+                <strong class="md-form__title"> </strong>
+
+                <label class="md-form__label">
+                    <!-- Інпут -->
+                    <span>Name<span class="decor"> *</span></span>
+                    <input class="md-form__input" type="text" name="user-name" minlength="3" placeholder=" " required>
+                    <svg class="md-form__icon" width="20" height="20">
+                        <use href="./img/sprits/sprit.svg#icon-man-black"></use>
+                    </svg>
+
+                    <!-- Підказки -->
+                    <span class="md-form__txt-error txt-error">Enter at least 3 characters</span>
+                    <svg class="md-form__icons-error" width="20" height="20">
+                        <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
+                        </use>
+                        <use class="icon-success" href="./img/sprits/sprit.svg#icon-success"></use>
+                    </svg>
+                </label>
+
+                <label class="md-form__label">
+                    <!-- Інпут -->
+                    <span>Phone<span class="decor"> *</span></span>
+                    <input class="md-form__input" type="text" name="user-phone" placeholder=" " required>
+                    <svg class="md-form__icon" width="20" height="20">
+                        <use href="./img/sprits/sprit.svg#icon-tel-black"></use>
+                    </svg>
+
+                    <!-- Підказки -->
+                    <span class="md-form__txt-error txt-error">Enter phone number in format +38 044 111 11 11</span>
+                    <svg class="md-form__icons-error" width="20" height="20">
+                        <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
+                        </use>
+                        <use class="icon-success" href="./img/sprits/sprit.svg#icon-success"></use>
+                    </svg>
+                </label>
+
+                <label class="md-form__label">
+                    <!-- Інпут -->
+                    <span>E-mail<span class="decor"> *</span></span>
+                    <input class="md-form__input" type="text" name="user-mail" placeholder=" " required>
+                    <svg class="md-form__icon" width="20" height="20">
+                        <use href="./img/sprits/sprit.svg#icon-mail-black"></use>
+                    </svg>
+
+                    <!-- Підказки -->
+                    <span class="md-form__txt-error txt-error">Enter e-mail in format example@mail.com</span>
+                    <svg class="md-form__icons-error" width="20" height="20">
+                        <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
+                        </use>
+                        <use class="icon-success" href="./img/sprits/sprit.svg#icon-success"></use>
+                    </svg>
+                </label>
+
+        
+
+                
+
+
+                <!-- Політика приватності(чекбокс) -->
+                <div class="checkbox checkbox-group">
+
+                    <label class="checkbox__label">
+                        <input class="checkbox__input visually-hidden" type="checkbox">
+                        <span class="checkbox__icon"></span>
+                        I agree with the mailing and accept the Terms of the Agreement
+                        <a class="checkbox__link" href="">
+                            Terms & Conditions
+
+                        </a>
+                    </label>
+
+                    <!-- Кнопка відправки форми -->
+                    <button class="btn btn--light-mode" type="submit">To send</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Скрипти -->
+    <script src="./js/header-scroll.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+
+    <!-- Анімація -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/animations.js"></script>
+</body>
+
+</html>
