@@ -3,6 +3,15 @@ a {
   color: white;
 }
 
+.footer{
+  /* position: fixed;
+  bottom: 0;
+  width: 100%; */
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  transition: bottom 0.3s ease-in-out;
+}
 .visually-hidden {
   position: absolute;
   margin: -1px;
@@ -30,6 +39,7 @@ a {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    min-height: 100vh;
     /* height: 100%; */
     margin: 0;
     padding: 0;

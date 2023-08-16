@@ -16,7 +16,10 @@
 <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="preconnect" crossorigin>
-    <!-- Анімація -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,400&display=swap" rel="stylesheet">    
+<!-- animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Нормалізатор -->
@@ -137,8 +140,8 @@ Washing disinfection machine in the laboratory, pharma and industry sector
     
     </main>
 
-    <!-- Розділ footer -->
-    <footer class="footer">
+    <!--  footer -->
+    <footer class="footer"  id="footer">
         <div class="container footer__container">
             <p class="footer__uppertitle">&#169; Copyright 2023</p>
 
@@ -146,11 +149,11 @@ Washing disinfection machine in the laboratory, pharma and industry sector
         </div>
     </footer>
 
-    <!-- Backdrop та модальне вікно -->
+    <!-- Backdrop and modal -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
 
-            <!-- Вихід з модального вікна -->
+            <!-- Exit fm modal-->
             <div class="modal__wrapper-btn">
                 <button class="modal__btn-exit" data-modal-close type="button">
                     <svg class="modal__icon-exit" width="11" height="11">
@@ -163,14 +166,15 @@ Washing disinfection machine in the laboratory, pharma and industry sector
                 <strong class="md-form__title"> </strong>
 
                 <label class="md-form__label">
-                    <!-- Інпут -->
+
+                    <!-- Input -->
                     <span>Name<span class="decor"> *</span></span>
                     <input class="md-form__input" type="text" name="user-name" minlength="3" placeholder=" " required>
                     <svg class="md-form__icon" width="20" height="20">
                         <use href="./img/sprits/sprit.svg#icon-man-black"></use>
                     </svg>
 
-                    <!-- Підказки -->
+                    <!-- helpers -->
                     <span class="md-form__txt-error txt-error">Enter at least 3 characters</span>
                     <svg class="md-form__icons-error" width="20" height="20">
                         <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
@@ -180,14 +184,15 @@ Washing disinfection machine in the laboratory, pharma and industry sector
                 </label>
 
                 <label class="md-form__label">
-                    <!-- Інпут -->
+
+                    <!-- input -->
                     <span>Phone<span class="decor"> *</span></span>
                     <input class="md-form__input" type="text" name="user-phone" placeholder=" " required>
                     <svg class="md-form__icon" width="20" height="20">
                         <use href="./img/sprits/sprit.svg#icon-tel-black"></use>
                     </svg>
 
-                    <!-- Підказки -->
+                    <!-- helpers -->
                     <span class="md-form__txt-error txt-error">Enter phone number in format +38 044 111 11 11</span>
                     <svg class="md-form__icons-error" width="20" height="20">
                         <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
@@ -197,14 +202,15 @@ Washing disinfection machine in the laboratory, pharma and industry sector
                 </label>
 
                 <label class="md-form__label">
-                    <!-- Інпут -->
+
+                    <!-- input -->
                     <span>E-mail<span class="decor"> *</span></span>
                     <input class="md-form__input" type="text" name="user-mail" placeholder=" " required>
                     <svg class="md-form__icon" width="20" height="20">
                         <use href="./img/sprits/sprit.svg#icon-mail-black"></use>
                     </svg>
 
-                    <!-- Підказки -->
+                    <!-- helpers -->
                     <span class="md-form__txt-error txt-error">Enter e-mail in format example@mail.com</span>
                     <svg class="md-form__icons-error" width="20" height="20">
                         <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
@@ -218,7 +224,7 @@ Washing disinfection machine in the laboratory, pharma and industry sector
                 
 
 
-                <!-- Політика приватності(чекбокс) -->
+                <!-- confidence checkbox-->
                 <div class="checkbox checkbox-group">
 
                     <label class="checkbox__label">
@@ -231,7 +237,7 @@ Washing disinfection machine in the laboratory, pharma and industry sector
                         </a>
                     </label>
 
-                    <!-- Кнопка відправки форми -->
+                    <!-- Button send form -->
                     <button class="btn btn--light-mode" type="submit">To send</button>
                 </div>
 
@@ -239,12 +245,13 @@ Washing disinfection machine in the laboratory, pharma and industry sector
         </div>
     </div>
 
-    <!-- Скрипти -->
+    <!-- Scripts -->
     <script src="./js/header-scroll.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/footer.js"></script>
 
-    <!-- Анімація -->
+    <!-- Animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/animations.js"></script>
 </body>
